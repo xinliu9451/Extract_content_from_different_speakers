@@ -5,7 +5,7 @@ import os
 import config
 
 # API地址
-url = f"http://192.168.110.49:{config.APP_PORT}/get_diarization_results"
+url = f"http://localhost:{config.APP_PORT}/get_diarization_results"
 
 # 请求数据
 data = {
